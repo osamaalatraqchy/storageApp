@@ -37,8 +37,5 @@ val TABLE_NAME = "reservation"
     //The MIME type of the {@link #CONTENT_URI} for a single pet.
     val CONTENT_ITEM_TYPE =  ContentResolver.CURSOR_ITEM_BASE_TYPE + "/" + URI_AUTH + "/" + URI_TABLE
 
-    fun test(){
-        print("Test")
-    }
 
 }
