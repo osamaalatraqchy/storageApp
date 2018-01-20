@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="7pt"
+    tools:context="email.storage.osama.storageapp.Add">
+
+    <ImageView
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:src="@drawable/ic_add_a_photo_white_24dp"
+        android:layout_margin="5pt"
+        android:background="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/r_name"
+        android:hint="ادخل الاسم"
+        android:background="@drawable/shape_text"
+        android:layout_width="match_parent"
+        android:layout_height="15pt"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+       android:layout_margin="5pt"/>
+
+    <EditText
+        android:id="@+id/r_address"
+        android:background="@drawable/shape_text"
+        android:textAlignment="center"
+        android:hint="ادخل "
+        android:layout_width="match_parent"
+        android:layout_height="15pt"
+        android:layout_margin="3pt"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3pt"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="2pt"
+        android:layout_margin="3pt">
+
+           <RadioGroup
+               android:id="@+id/r_gender"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="horizontal"
+               >
+
+               <RadioButton
+                   android:id="@+id/r_male"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="ذكر" />
+
+               <RadioButton
+                   android:id="@+id/r_female"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="انثى" />
+           </RadioGroup>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/r_phone"
+        android:background="@drawable/shape_text"
+        android:textAlignment="center"
+        android:hint="ادخل"
+        android:layout_width="match_parent"
+        android:layout_height="15pt"
+        android:layout_marginBottom="10pt"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:padding="5pt">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="0pt"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="insert_reservation"
+            android:background="@drawable/shape_add"
+            android:text="إضافة"
+            android:layout_margin="2pt"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/delete"
+            android:onClick="delete"
+            android:layout_width="0pt"
+            android:layout_height="wrap_content"
+            android:layout_margin="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/shape_add"
+            android:text="حذف"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_margin="2pt"
+            android:layout_width="0pt"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:background="@drawable/shape_add"
+            android:textColor="#fff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

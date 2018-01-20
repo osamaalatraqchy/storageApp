@@ -1,0 +1,11 @@
+<resources>
+    <string name="home">الرئيسية</string>
+    <string name="add">اضافة مذكرة</string>
+    <string name="show">عرض المذكرات</string>
+    <string name="mor">morning</string>
+    <string name="eve">evening</string>
+    <string-array name="type">
+        <item>morning</item>
+        <item>evening</item>
+    </string-array>
+</resources>
