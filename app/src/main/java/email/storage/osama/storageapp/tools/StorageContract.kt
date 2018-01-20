@@ -18,6 +18,7 @@ val TABLE_NAME = "reservation"
     val R_ADRESS = "r_address"
     val R_TIME = "r_time"
     val R_GENDER = "r_gender"
+    val test = "osama-test"
     
     //
 
@@ -35,9 +36,8 @@ val TABLE_NAME = "reservation"
     val CONTENT_LIST_TYPE =  ContentResolver.CURSOR_DIR_BASE_TYPE + "/" + URI_AUTH + "/" + URI_TABLE
     //The MIME type of the {@link #CONTENT_URI} for a single pet.
     val CONTENT_ITEM_TYPE =  ContentResolver.CURSOR_ITEM_BASE_TYPE + "/" + URI_AUTH + "/" + URI_TABLE
-
-    fun test(){
-        print("Test")
-    }
+fun master1(){
+    print("review master1")
+}
 
 }
