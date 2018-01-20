@@ -18,6 +18,7 @@ val TABLE_NAME = "reservation"
     val R_ADRESS = "r_address"
     val R_TIME = "r_time"
     val R_GENDER = "r_gender"
+    val test = "osama-test"
     
     //
 
